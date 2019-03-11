@@ -1,17 +1,14 @@
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
-from .views import (
-    DoctorListCreateAPIView,
-    DoctorRetrieveUpdateDestroyAPIView
-)
 
+from patient.views import PatientListCreateAPIView, PatientRetrieveUpdateDestroyAPIView
 
-app_name = 'doctor'
+app_name = 'patient'
 urlpatterns = [
-    path('', DoctorListCreateAPIView.as_view(), name='api-list'),
-    path('delete/<int:id>/', DoctorRetrieveUpdateDestroyAPIView.as_view(), name='api-delete'),
-    path('details/<int:id>/', DoctorRetrieveUpdateDestroyAPIView.as_view(), name='api-details'),
-    path('update/<int:id>/', DoctorRetrieveUpdateDestroyAPIView.as_view(), name='api-update')
+    path('', PatientListCreateAPIView.as_view(), name='api-list'),
+    path('delete/<int:id>/', PatientRetrieveUpdateDestroyAPIView.as_view(), name='api-delete'),
+    path('details/<int:id>/', PatientRetrieveUpdateDestroyAPIView.as_view(), name='api-details'),
+    path('update/<int:id>/', PatientRetrieveUpdateDestroyAPIView.as_view(), name='api-update')
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

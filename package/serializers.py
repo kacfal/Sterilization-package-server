@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from doctor.models import Doctor
+from package.models import Package
 
 
-class DoctorSerializers(serializers.ModelSerializer):
+class PackageSerializers(serializers.ModelSerializer):
     class Meta:
-        model = Doctor
+        model = Package
         fields = '__all__'

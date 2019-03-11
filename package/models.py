@@ -1,5 +1,6 @@
 from django.db import models
-from doctor.models import Doctor, Patient
+from doctor.models import Doctor
+from patient.models import Patient
 
 
 class Package(models.Model):

@@ -13,3 +13,4 @@ class Package(models.Model):
     type_package = models.CharField(max_length=120)
     state = models.TextField(default='Dirty', choices=STATE_OF_TOOL)
     doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
+    patient = models.ForeignKey(Patient, on_delete=models.CASCADE, blank=True)

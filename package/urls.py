@@ -5,7 +5,7 @@ from doctor.views import DoctorListCreateAPIView, DoctorRetrieveUpdateDestroyAPI
 
 app_name = 'doctor'
 urlpatterns = [
-    path('', DoctorListCreateAPIView.as_view(), name='api-list-create'),
+    path('', DoctorListCreateAPIView.as_view(), name='api-list'),
     path('delete/<int:id>/', DoctorRetrieveUpdateDestroyAPIView.as_view(), name='api-delete'),
     path('details/<int:id>/', DoctorRetrieveUpdateDestroyAPIView.as_view(), name='api-details'),
     path('update/<int:id>/', DoctorRetrieveUpdateDestroyAPIView.as_view(), name='api-update')

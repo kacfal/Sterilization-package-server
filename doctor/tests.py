@@ -33,7 +33,7 @@ class DoctorTest(APITestCase):
 
     def test_get_list_doctor(self):
         response = self.client.get(
-            reverse('doctor:api-list')
+            reverse('doctor:api-list-create')
         )
         doctors = Doctor.objects.all()
         serializer = DoctorSerializers(doctors, many=True)
@@ -64,7 +64,7 @@ class DoctorTest(APITestCase):
 
     def test_valid_create_doctor(self):
         response = self.client.post(
-            reverse('doctor:api-list'),
+            reverse('doctor:api-list-create'),
             data=self.valid_payload
         )
         doctors = Doctor.objects.all()
@@ -73,7 +73,7 @@ class DoctorTest(APITestCase):
 
     def test_invalid_create_doctor(self):
         response = self.client.post(
-            reverse('doctor:api-list'),
+            reverse('doctor:api-list-create'),
             data=self.invalid_payload
         )
         doctors = Doctor.objects.all()

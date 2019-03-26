@@ -5,6 +5,7 @@ coreschema==0.0.4
 Django==2.1.7
 django-filter==2.1.0
 djangorestframework==3.9.2
+djangorestframework-stubs==0.4.1
 idna==2.8
 itypes==1.1.0
 Jinja2==2.10

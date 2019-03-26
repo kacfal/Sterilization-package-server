@@ -29,7 +29,7 @@ class PatientTest(APITestCase):
 
     def test_get_list_patient(self):
         response = self.client.get(
-            reverse('patient:api-list')
+            reverse('patient:api-list-create')
         )
         patients = Patient.objects.all()
         serializer = PatientSerializers(patients, many=True)
@@ -60,7 +60,7 @@ class PatientTest(APITestCase):
 
     def test_valid_create_patient(self):
         response = self.client.post(
-            reverse('patient:api-list'),
+            reverse('patient:api-list-create'),
             data=self.valid_payload
         )
         patients = Patient.objects.all()
@@ -69,7 +69,7 @@ class PatientTest(APITestCase):
 
     def test_invalid_create_patient(self):
         response = self.client.post(
-            reverse('patient:api-list'),
+            reverse('patient:api-list-create'),
             data=self.invalid_payload
         )
         patients = Patient.objects.all()

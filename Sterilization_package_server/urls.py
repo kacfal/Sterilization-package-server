@@ -20,6 +20,8 @@ urlpatterns = [
     path('doctor/', include('doctor.urls')),
     path('patient/', include('patient.urls')),
     path('package/', include('package.urls')),
+    path('package_type/', include('package_type.urls')),
+    path('doctor_requirements/', include('doctor_requirements.urls')),
 
     path('admin/', admin.site.urls),
 ]

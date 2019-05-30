@@ -12,11 +12,11 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Patient',
+            name='PackageType',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=120)),
-                ('last_name', models.CharField(max_length=120)),
+                ('package_name', models.CharField(max_length=120, unique=True)),
+                ('description', models.CharField(max_length=120)),
             ],
         ),
     ]

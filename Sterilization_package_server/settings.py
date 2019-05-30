@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'rest_framework',
     'doctor',
     'package',
-    'patient'
+    'patient',
+    'package_type',
+    'doctor_requirements'
 ]
 
 MIDDLEWARE = [

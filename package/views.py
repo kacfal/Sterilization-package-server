@@ -1,4 +1,3 @@
-from requests import Response, Request
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 
 from package.models import Package

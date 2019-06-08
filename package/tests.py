@@ -3,6 +3,7 @@ from rest_framework.test import APIClient, APITestCase
 from rest_framework.reverse import reverse
 
 from doctor.models import Doctor
+from package_type.models import PackageType
 from patient.models import Patient
 from package.models import Package
 from package.serializers import PackageSerializers
@@ -18,32 +19,59 @@ class PackageTest(APITestCase):
             office_number=1
         )
 
+        doctor1 = Doctor.objects.create(
+            name="doctor 1",
+            last_name='doctor 1',
+            office_number=1
+        )
+
         patient = Patient.objects.create(
             name="patient",
             last_name='patient',
         )
 
+        patient1 = Patient.objects.create(
+            name="patient 1",
+            last_name='patient 1',
+        )
+
+        package_type = PackageType.objects.create(
+            description='test',
+            package_name='Type'
+        )
+
+        package_type1 = PackageType.objects.create(
+            description='test 1',
+            package_name='Type 1'
+        )
+
+        PackageType.objects.create(
+            description='test 2',
+            package_name='Type 2'
+        )
+
         Package.objects.create(
-            type_package='Type 3',
+            package_type=package_type,
             state='Clean',
             doctor=doctor,
             patient=patient
         )
 
         self.package = Package.objects.create(
-            type_package='Type 3',
+            package_type=package_type1,
             state='Clean',
-            doctor=doctor,
-            patient=patient
+            doctor=doctor1,
+            patient=patient1
         )
 
         self.valid_payload = {
-            "doctor": 1,
-            "patient": 1,
-            "serialization_data": "2012-09-04 06:00",
+            "state": "Dirty",
             "used_data": "2012-09-04 06:00",
-            "type_package": "asaa",
-            "state": "Dirty"
+            "created": "2019-06-08T19:06:52.824654Z",
+            "serialization_data": "2012-09-04 06:00",
+            "package_type": 3,
+            "doctor": 2,
+            "patient": 2,
         }
 
         self.invalid_payload = {
@@ -81,17 +109,12 @@ class PackageTest(APITestCase):
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
     def test_valid_create_package(self):
-        packages = Package.objects.all()
-        print(self.valid_payload)
-        print("Before: {}".format(len(packages)))
         response = self.client.post(
             reverse('package:api-list-create'),
             data=self.valid_payload,
             format='json'
         )
-        print(response)
         packages = Package.objects.all()
-        print("After: {}".format(len(packages)))
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(len(packages), 3)
 

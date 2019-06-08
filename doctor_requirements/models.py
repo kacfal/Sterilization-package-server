@@ -6,9 +6,6 @@ from package_type.models import PackageType
 
 
 class DoctorRequirements(models.Model):
-    """
-    TODO: Count of item
-    """
-    doctor = models.OneToOneField(Doctor, on_delete=models.CASCADE)
-    package_type = models.ManyToManyField(PackageType)
+    doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
+    package_type = models.ForeignKey(PackageType, on_delete=models.CASCADE)
     count = models.PositiveIntegerField()

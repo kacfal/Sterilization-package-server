@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55a7cea1-f04b-4190-b5b2-78b680c35cd8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doctor_requirements/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doctor_requirements/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package_type/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package_type/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sterilization_package_server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sterilization_package_server/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sterilization_package_server/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sterilization_package_server/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doctor/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doctor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/doctor/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor_requirements/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor_requirements/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/doctor_requirements/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/migrations/0002_auto_20190417_1915.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/package/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package_type/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/patient/migrations/0001_initial.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +27,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sterilization_package_server/urls.py">
+        <entry file="file://$PROJECT_DIR$/package/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="-102">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doctor_requirements/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#652#684#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +55,51 @@
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="91" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sterilization_package_server/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="29" />
+              <folding>
+                <element signature="e#652#684#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doctor/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -86,13 +133,10 @@
         <option value="$PROJECT_DIR$/doctor/urls.py" />
         <option value="$PROJECT_DIR$/doctor/tests.py" />
         <option value="$PROJECT_DIR$/Sterilization_package_server/settings.py" />
-        <option value="$PROJECT_DIR$/package/models.py" />
         <option value="$PROJECT_DIR$/doctor_requirements/admin.py" />
         <option value="$PROJECT_DIR$/package_type/admin.py" />
         <option value="$PROJECT_DIR$/package/admin.py" />
         <option value="$PROJECT_DIR$/package_type/models.py" />
-        <option value="$PROJECT_DIR$/doctor/models.py" />
-        <option value="$PROJECT_DIR$/doctor_requirements/models.py" />
         <option value="$PROJECT_DIR$/doctor_requirements/serializers.py" />
         <option value="$PROJECT_DIR$/doctor_requirements/views.py" />
         <option value="$PROJECT_DIR$/doctor_requirements/urls.py" />
@@ -101,14 +145,20 @@
         <option value="$PROJECT_DIR$/package_type/views.py" />
         <option value="$PROJECT_DIR$/package_type/urls.py" />
         <option value="$PROJECT_DIR$/Sterilization_package_server/urls.py" />
+        <option value="$PROJECT_DIR$/doctor/models.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/package/models.py" />
+        <option value="$PROJECT_DIR$/doctor_requirements/models.py" />
+        <option value="$PROJECT_DIR$/package/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1055" />
+    <option name="x" value="452" />
+    <option name="y" value="395" />
+    <option name="width" value="900" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,50 +176,12 @@
             <path>
               <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="doctor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="doctor" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="doctor_requirements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="doctor_requirements" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
               <item name="package" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="package_type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="package_type" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="patient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sterilization_package_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sterilization_package_server" type="462c0819:PsiDirectoryNode" />
-              <item name="patient" type="462c0819:PsiDirectoryNode" />
+              <item name="package" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.Sterilization_package_server">
+  <component name="RunManager" selected="Django tests.Test: package.tests">
     <configuration name="Test: doctor.tests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="Sterilization_package_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,26 +248,6 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: doctor.tests.DoctorTest" type="DjangoTestsConfigurationType" temporary="true">
-      <module name="Sterilization_package_server" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="doctor.tests.DoctorTest" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Test: package.tests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="Sterilization_package_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,6 +262,26 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="TARGET" value="package.tests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: package.tests.PackageTest" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Sterilization_package_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="package.tests.PackageTest" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
@@ -342,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: doctor.tests" />
         <item itemvalue="Django tests.Test: package.tests" />
-        <item itemvalue="Django tests.Test: patient.tests" />
+        <item itemvalue="Django tests.Test: package.tests.PackageTest" />
         <item itemvalue="Django tests.Test: patient.tests.PatientTest" />
-        <item itemvalue="Django tests.Test: doctor.tests.DoctorTest" />
+        <item itemvalue="Django tests.Test: doctor.tests" />
+        <item itemvalue="Django tests.Test: patient.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -366,54 +378,57 @@
       <workItem from="1556132863574" duration="629000" />
       <workItem from="1556217905449" duration="33000" />
       <workItem from="1559067646188" duration="736000" />
-      <workItem from="1559226897564" duration="7295000" />
+      <workItem from="1559226897564" duration="10091000" />
+      <workItem from="1559483957367" duration="209000" />
+      <workItem from="1559819168109" duration="1194000" />
+      <workItem from="1560019250502" duration="1964000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__doctor_tests - 2019.04.17 at 21h 04m 00s.xml">
-      <configuration name="Test: doctor.tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__package_tests_PackageTest - 2019.05.30 at 19h 57m 41s.xml">
+      <configuration name="Test: package.tests.PackageTest" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__package_tests - 2019.04.17 at 21h 04m 05s.xml">
+    <history-entry file="Test__package_tests_PackageTest - 2019.05.30 at 19h 58m 31s.xml">
+      <configuration name="Test: package.tests.PackageTest" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__package_tests - 2019.06.08 at 20h 54m 35s.xml">
       <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__patient_tests - 2019.04.17 at 21h 04m 13s.xml">
-      <configuration name="Test: patient.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__package_tests - 2019.04.17 at 21h 04m 25s.xml">
+    <history-entry file="Test__package_tests - 2019.06.08 at 20h 55m 36s.xml">
       <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__package_tests - 2019.04.17 at 21h 06m 53s.xml">
+    <history-entry file="Test__package_tests - 2019.06.08 at 21h 08m 48s.xml">
       <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__patient_tests - 2019.04.17 at 21h 11m 20s.xml">
-      <configuration name="Test: patient.tests" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__package_tests - 2019.04.17 at 21h 19m 50s.xml">
+    <history-entry file="Test__package_tests - 2019.06.08 at 21h 10m 58s.xml">
       <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__package_tests - 2019.04.17 at 21h 26m 12s.xml">
+    <history-entry file="Test__package_tests - 2019.06.08 at 21h 11m 24s.xml">
       <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__doctor_tests - 2019.05.28 at 20h 24m 51s.xml">
-      <configuration name="Test: doctor.tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__package_tests - 2019.06.08 at 21h 11m 51s.xml">
+      <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__doctor_tests - 2019.05.30 at 17h 23m 01s.xml">
-      <configuration name="Test: doctor.tests" configurationId="DjangoTestsConfigurationType" />
+    <history-entry file="Test__package_tests - 2019.06.08 at 21h 12m 05s.xml">
+      <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__package_tests - 2019.06.08 at 21h 13m 30s.xml">
+      <configuration name="Test: package.tests" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29163000" />
+    <option name="totallyTimeSpent" value="35326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16768125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123408966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34850165" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28967813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,8 +437,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38845727" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.23418424" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32852387" />
+      <window_info anchor="right" id="Coverage" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -459,8 +475,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__patient_tests.coverage" NAME="Test: patient.tests Coverage Results" MODIFIED="1555528279409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__package_tests.coverage" NAME="Test: package.tests Coverage Results" MODIFIED="1555529171702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__doctor_tests.coverage" NAME="Test: doctor.tests Coverage Results" MODIFIED="1559229776476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__package_tests.coverage" NAME="Test: package.tests Coverage Results" MODIFIED="1560021330830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__package_tests_PackageTest.coverage" NAME="Test: package.tests.PackageTest Coverage Results" MODIFIED="1559239110089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__doctor_tests.coverage" NAME="Test: doctor.tests Coverage Results" MODIFIED="1559237436690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Sterilization_package_server$Test__patient_tests_PatientTest.coverage" NAME="Test: patient.tests.PatientTest Coverage Results" MODIFIED="1559237471248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Dockerfile">
@@ -508,20 +526,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="297" selection-start-line="297" selection-end-line="297" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>
@@ -589,13 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doctor/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="951">
@@ -620,9 +617,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package/migrations/0002_auto_20190417_1915.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/package/migrations/0002_auto_20190417_1915.py" />
     <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/backends/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -690,75 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DjangoModelDependency/#Sterilization_package_server">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DjangoModelDependency</ID>
-          <OriginalElement>#Sterilization_package_server</OriginalElement>
-          <nodes>
-            <node x="580.0" y="255.0">package_type.models.PackageType</node>
-            <node x="0.0" y="12.0">patient.models.Patient</node>
-            <node x="226.0" y="0.0">doctor.models.Doctor</node>
-            <node x="574.0" y="17.0">doctor_requirements.models.DoctorRequirements</node>
-            <node x="176.0" y="173.0">package.models.Package</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="doctor_requirements.models.DoctorRequirements" target="doctor.models.Doctor">
-              <point x="-97.5" y="-49.5" />
-              <point x="569.5" y="143.0" />
-              <point x="458.5" y="143.0" />
-              <point x="77.5" y="61.5" />
-            </edge>
-            <edge source="package.models.Package" target="package_type.models.PackageType">
-              <point x="85.0" y="-97.5" />
-              <point x="388.5" y="153.0" />
-              <point x="625.5" y="153.0" />
-              <point x="-69.5" y="49.5" />
-            </edge>
-            <edge source="doctor_requirements.models.DoctorRequirements" target="package_type.models.PackageType">
-              <point x="97.5" y="-49.5" />
-              <point x="69.5" y="49.5" />
-            </edge>
-            <edge source="package.models.Package" target="patient.models.Patient">
-              <point x="-85.0" y="-97.5" />
-              <point x="218.5" y="153.0" />
-              <point x="103.0" y="153.0" />
-              <point x="0.0" y="49.5" />
-            </edge>
-            <edge source="package.models.Package" target="doctor.models.Doctor">
-              <point x="0.0" y="-97.5" />
-              <point x="-77.5" y="61.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="220.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doctor/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doctor_requirements/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/doctor_requirements/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -785,23 +711,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="13" selection-end-column="23" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -853,6 +762,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/models/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/migrations/0002_auto_20190530_1749.py" />
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="297" selection-start-line="297" selection-end-line="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package_type/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#Sterilization_package_server">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#Sterilization_package_server</OriginalElement>
+          <nodes>
+            <node x="" y="">package_type.models.PackageType</node>
+            <node x="" y="">patient.models.Patient</node>
+            <node x="" y="">doctor.models.Doctor</node>
+            <node x="" y="">doctor_requirements.models.DoctorRequirements</node>
+            <node x="" y="">package.models.Package</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="393.5" y="-105.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="91" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sterilization_package_server/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="29" />
+          <folding>
+            <element signature="e#652#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doctor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doctor_requirements/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -863,13 +866,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sterilization_package_server/urls.py">
+    <entry file="file://$PROJECT_DIR$/doctor_requirements/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#652#684#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
         </state>
       </provider>
     </entry>

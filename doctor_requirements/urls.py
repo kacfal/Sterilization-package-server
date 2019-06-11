@@ -1,6 +1,5 @@
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
-
 from doctor_requirements.views import DoctorRequirementsListCreateAPIView, \
     DoctorRequirementsRetrieveUpdateDestroyAPIView
 

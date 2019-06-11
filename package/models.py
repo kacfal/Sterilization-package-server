@@ -9,7 +9,7 @@ class Package(models.Model):
         ('Clean', 'Clean'),
         ('Dirty', 'Dirty')
     )
-    package_type = models.OneToOneField(PackageType, on_delete=models.CASCADE)
+    package_type = models.ForeignKey(PackageType, on_delete=models.CASCADE)
     doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
     patient = models.ForeignKey(Patient, on_delete=models.CASCADE, blank=True, null=True)
     state = models.TextField(default='Dirty', choices=STATE_OF_TOOL)

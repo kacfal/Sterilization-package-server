@@ -2,6 +2,6 @@ venv/
 env/
 db.*
 __pycache__/
-migrations/000*.py
+*/migrations/*
 db.sqlite3
 .idea/
